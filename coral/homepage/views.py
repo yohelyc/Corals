@@ -10,3 +10,6 @@ class HomePageView(TemplateView):
 #Add this view
 class AboutPageView(TemplateView):
 	template_name = "about.html"
+
+class FunFactsPageView(TemplateView):
+	template_name = "funfacts.html"
