@@ -13,3 +13,6 @@ class AboutPageView(TemplateView):
 
 class FunFactsPageView(TemplateView):
 	template_name = "funfacts.html"
+
+class SearchPageView(TemplateView):
+	template_name = "search.html"

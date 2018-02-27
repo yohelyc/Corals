@@ -5,7 +5,8 @@ urlpatterns = [
 
 	url(r'^$', views.HomePageView.as_view()),
 	url(r'^about/$', views.AboutPageView.as_view()),
-	url(r'^funfacts/$', views.FunFactsPageView.as_view())
+	url(r'^funfacts/$', views.FunFactsPageView.as_view()),
+	url(r'^search/$', views.SearchPageView.as_view()),
 
 
 ]
